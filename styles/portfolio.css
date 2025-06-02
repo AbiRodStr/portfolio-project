@@ -8,12 +8,13 @@ body {
   font-family: var(--default-font);
   font-weight: 400px;
   display: block;
-  background: var(--primary-color);
 }
 .hero {
   text-align: center;
-  padding: 160px, 20px;
-  margin: 150px;
+  padding-top: 150px;
+  margin: 0px;
+  background: var(--primary-color);
+  padding-bottom: 50px;
 }
 .hero p {
   font-size: 36px;
@@ -45,3 +46,34 @@ h2 {
   margin: 30px;
   border-color: var(--specialist-color);
 }
+.btn-branding-outline {
+  border-radius: 4px;
+  color: var(--specialist-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 30px;
+  border-color: var(--specialist-color);
+}
+p {
+  line-height: 30px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  .hero{
+padding: 80px 20px;
+  }
+    
+  .row {
+    padding: 20px;
+  }
+  
+  .feature-project {
+    text-align: center;
+ width: 100%;
+    max-width: 100%;
+  }
+
