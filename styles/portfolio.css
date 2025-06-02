@@ -1,15 +1,47 @@
+:root {
+  --heading-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+  --primary-color: #f9f7fe;
+  --specialist-color: #6c63ff;
+}
 body {
-  background: rgb(187, 255, 243);
+  font-family: var(--default-font);
+  font-weight: 400px;
+  display: block;
+  background: var(--primary-color);
+}
+.hero {
+  text-align: center;
+  padding: 160px, 20px;
+  margin: 150px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
 }
 h1 {
-  font-family: "Rubik Wet Paint", system-ui;
-  font-weight: 400;
-  font-style: normal;
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 96px;
+  display: block;
 }
 
-p {
-  font-family: "Parkinsans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+h2 {
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.contact {
+  background-color: var(--specialist-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 30px;
+  border-color: var(--specialist-color);
 }
