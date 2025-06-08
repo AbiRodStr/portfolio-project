@@ -46,6 +46,10 @@ h2 {
   margin: 30px;
   border-color: var(--specialist-color);
 }
+img {
+  border-radius: 8px;
+  box-shadow: var(--specialist-color);
+}
 .btn-branding-outline {
   border-radius: 4px;
   color: var(--specialist-color);
@@ -58,22 +62,46 @@ h2 {
 p {
   line-height: 30px;
 }
+.about-section {
+  padding-top: 150px;
+  margin-left: 30px;
+
+  padding-bottom: 50px;
+}
+.about-section-content {
+  margin: 50px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
     line-height: 1.5;
   }
-  .hero{
-padding: 80px 20px;
+  .hero {
+    padding: 80px 20px;
   }
-    
-  .row {
-    padding: 20px;
-  }
-  
   .feature-project {
     text-align: center;
- width: 100%;
+    width: 100%;
     max-width: 100%;
   }
-
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 120px;
+  }
+  .contact {
+    resize: horizontal;
+  }
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
