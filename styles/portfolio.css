@@ -49,6 +49,7 @@ h2 {
 img {
   border-radius: 8px;
   box-shadow: var(--specialist-color);
+  max-height: 500px;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -62,19 +63,20 @@ img {
 p {
   line-height: 30px;
 }
-.about-section {
-  padding-top: 150px;
+.content-container {
+  padding-top: 50px;
   margin-left: 30px;
 
   padding-bottom: 50px;
 }
-.about-section-content {
+.content {
   margin: 50px;
 }
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
     line-height: 1.5;
+    padding-top: 30px;
   }
   .hero {
     padding: 80px 20px;
@@ -84,24 +86,37 @@ p {
     width: 100%;
     max-width: 100%;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
   .img-fluid {
     max-width: 100%;
     height: auto;
-    margin-left: 120px;
+    display: block auto 0;
+    margin: auto;
+  }
+  .content-container {
+    padding-top: 10px;
   }
   .contact {
-    resize: horizontal;
   }
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font);
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
 }
