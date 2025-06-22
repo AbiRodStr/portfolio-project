@@ -66,12 +66,19 @@ p {
 .content-container {
   padding-top: 50px;
   margin-left: 30px;
-
   padding-bottom: 50px;
 }
 .content {
   margin: 50px;
 }
+.content-info-container {
+  background-color: #f5f4fb;
+  border-radius: 8px;
+  box-shadow: var(--specialist-color);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -100,6 +107,7 @@ p {
     padding-top: 10px;
   }
   .contact {
+    margin-top: 50px;
   }
 }
 .content h1 {
